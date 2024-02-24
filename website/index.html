@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umoja Collection Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container">
+            <h1 class="logo">Umoja Collection</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <a href="ucims/sales/index.html">Products</a>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+ <!-- Home Section -->
+<section id="home" class="home-section">
+    <div class="container">
+        <h2>Welcome to Umoja Collection</h2>
+        <p>Your one-stop destination for trendy fashion and accessories.</p>
+        <div class="product-info">
+            <img src="img/images (2).jpg" alt="Product 1">
+            <div class="product-details">
+                <h3>Product Name 1</h3>
+                <p>Description of Product 1</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Category Cards Section -->
+    <section class="category-section">
+        <h2>Shop by Category</h2>
+        <div class="category-grid">
+            <div class="category-card" data-category="Top Wear">
+                <img src="img/images (3).jpg" alt="Top Wear">
+                <h3>Top Wear</h3>
+            </div>
+            <div class="category-card" data-category="Head Wear">
+                <img src="img/images (2).jpg" alt="Head Wear">
+                <h3>Head Wear</h3>
+            </div>
+            <div class="category-card" data-category="Bottom Wear">
+                <img src="img/images (3).jpg" alt="Bottom Wear">
+                <h3>Bottom Wear</h3>
+            </div>
+            <div class="category-card" data-category="Foot Wear">
+                <img src="img/images (2).jpg" alt="Foot Wear">
+                <h3>Foot Wear</h3>
+            </div>
+            <div class="category-card" data-category="Others Wear">
+                <img src="img/images (1).jpg" alt="Others Wear">
+                <h3>Others Wear</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Table Section -->
+    <section class="products-table-section">
+        <h2>Our Products</h2>
+        <div class="products-table-wrapper">
+            <table class="products-table">
+                <thead>
+                    <tr>
+                        <th>Product ID</th>
+                        <th>Name</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Products will be inserted here -->
+                    <!-- Sample Products -->
+                    <tr>
+                        <td>001</td>
+                        <td>Leather Jacket</td>
+                        <td>Top Wear</td>
+                        <td>$99.99</td>
+                    </tr>
+                    <tr>
+                        <td>002</td>
+                        <td>Snapback Cap</td>
+                        <td>Head Wear</td>
+                        <td>$19.99</td>
+                    </tr>
+                    <tr>
+                        <td>003</td>
+                        <td>Skinny Jeans</td>
+                        <td>Bottom Wear</td>
+                        <td>$59.99</td>
+                    </tr>
+                    <tr>
+                        <td>004</td>
+                        <td>Sneakers</td>
+                        <td>Foot Wear</td>
+                        <td>$79.99</td>
+                    </tr>
+                    <tr>
+                        <td>005</td>
+                        <td>T-shirt</td>
+                        <td>Others Wear</td>
+                        <td>$29.99</td>
+                    </tr>
+                    <!-- Add more products as needed -->
+                </tbody>
+            </table>
+            <div class="pagination">
+                <button class="prev-btn">Prev</button>
+                <button class="next-btn">Next</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or feedback? Reach out to us!</p>
+            <!-- Contact Form -->
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <div class="reviews">
+        <div class="review-container">
+            <h4>Customer Reviews:</h4>
+            <div class="review">
+                <div class="review-content">
+                    <p>"Love this product! It exceeded my expectations."</p>
+                    <span class="rating">★★★★★</span>
+                </div>
+                <div class="review-author">- John Doe</div>
+            </div>
+            <div class="review">
+                <div class="review-content">
+                    <p>"Highly recommend this item. Great quality and value."</p>
+                    <span class="rating">★★★★★</span>
+                </div>
+                <div class="review-author">- Jane Smith</div>
+            </div>
+            <!-- Add more reviews as needed -->
+        </div>
+    </div>
+    
+    
+    <!-- Footer -->
+    <footer>
+        <div class="social-media">
+            <h4>Follow Us on Social Media:</h4>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <!-- Add more social media icons as needed -->
+            </div>
+        </div>
+        
+        <div class="container">
+            <p>&copy; 2024 Umoja Collection. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for interactivity -->
+    <script src="script.js"></script>
+</body>
+</html>
